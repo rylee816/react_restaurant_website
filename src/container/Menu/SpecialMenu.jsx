@@ -5,7 +5,6 @@ import { images, data } from "../../constants";
 import './SpecialMenu.css';
 
 let {wines, cocktails} = data
-console.log(wines, cocktails);
 
 const SpecialMenu = () => (
   <div className='app__specialMenu flex__center section__padding' id="menu">
